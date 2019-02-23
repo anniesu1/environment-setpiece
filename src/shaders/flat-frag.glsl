@@ -482,8 +482,8 @@ vec3 phongIllumination(vec3 k_a, vec3 k_d, vec3 k_s, float alpha, vec3 p, vec3 e
   vec3 color = ambientLight * k_a;
   
   // Add light 1 on stagr right 
-  vec3 light1Pos = vec3(-6.0, -5.0, -6.0 );
-  vec3 light1Intensity = vec3(0.5, 0.5, 0.5);
+  vec3 light1Pos = vec3(-6.0, -5.0, -10.0 );
+  vec3 light1Intensity = vec3(0.5, 0.5, 0.6);
   
   color += phongContribForLight(k_d, k_s, alpha, p, eye, light1Pos, light1Intensity);
 
