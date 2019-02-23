@@ -1,6 +1,9 @@
 # environment setpiece 
 by Annie Su, anniesu1
 
+## Final scene
+![](scene.png)
+
 ![](monument_valley.PNG)
 ## Inspiration
 I recently finished the game Monument Valley on my phone. I loved the visuals and pseudo-3d/2d world that the game was set in and 
