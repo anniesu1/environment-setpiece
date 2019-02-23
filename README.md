@@ -1,7 +1,7 @@
 # environment setpiece 
 by Annie Su, anniesu1
 
-![](monument_valley.png)
+![](monument_valley.PNG)
 ## Inspiration
 I recently finished the game Monument Valley on my phone. I loved the visuals and pseudo-3d/2d world that the game was set in and 
 thought it would be interesting to hybridize the 2d and 3d look of the game. 
@@ -13,7 +13,7 @@ thought it would be interesting to hybridize the 2d and 3d look of the game.
 presence and color. The clouds are made using a perlin-based fractal brownian motion that takes in the position and also
 a time component to give the clouds movement. The prisms surrounding the main character are animated using a triangle wave
 function that takes in a time variable and displaces the y-coordinate of the pixel position.
-- Lighting: I have 3 lights in the scene: 1 directly above 
+- Lighting: I have 3 lights in the scene: 1 directly above in the center of the scene, one located to the right, and an ambient light as well to give more illumination to the scene.
 - Vignette: I applied a vignette to the scene by calculating each pixel's distance from the center, and scaling the color by (1-distance)
 ![](sky.png)
 - Sky - color remapping: I remapped colors in the sky and linearly interpolated between a set of 5 colors to produce a gradient 
